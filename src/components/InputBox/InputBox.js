@@ -34,7 +34,7 @@ const InputBox = ({ toDo, setTodo }) => {
                 onPress={onClick}
                 disabled={!inputText}
             >
-                <Text>Kaydet</Text>
+                <Text style={styles.buttonText}>Kaydet</Text>
             </TouchableOpacity>
         </View>
     );
